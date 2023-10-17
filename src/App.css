@@ -67,7 +67,7 @@ img{
     width: 100%;
 }
 
-.icon{
+#icon{
     font-size:25px;
     cursor:pointer;
 }
@@ -196,3 +196,4 @@ body{
     background: var(--BgColor);
     color: white;
 }
+
