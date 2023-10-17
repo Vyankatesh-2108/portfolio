@@ -13,7 +13,7 @@
 :root{
     --primaryColor: #00eaff;
     --primaryHover: hsl(185, 92%, 41%);
-    --secondaryColor: rgb(150., 162, 188);
+    --secondaryColor: rgb(150, 162, 188);
     --paragraphColor: rgb(127, 127, 175);
     --BgColor: #031a30;
     --formColor: rgb(2, 15, 29);

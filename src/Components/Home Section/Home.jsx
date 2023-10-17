@@ -38,21 +38,32 @@ const Home = () => {
       </p>
 
       <div className='lowerHomeSection'>
-        <button className='containerBtn'>
-          <a href='#contact' className='flex'>
+        <button className='contactBtn'>
+          <a href='#contact' id='btn1' className='flex'>
             Contact Me <BiRightArrow id='icon'/>
           </a>
         </button>
 
         <div className='scrollDiv'>
           <a href='#about' className='flex'>
-            Scroll Down <TbChevronsDown id='icon'/>
+            <h6 className='scroll'>Scroll Down</h6> <TbChevronsDown id='icons'/>
           </a>
         </div>
-
       </div>
       </div>
 
+      {/* right div with email*/}
+      {/* <div className='rightEmail'>
+        <div>
+          <div className='emailAddress'>
+            <a href='https://mailto:vyankateshkhetri07@gmail.com' target='_blank'>
+              vyankateshkhetri07@gmail.com
+            </a>
+          </div>
+
+          <div className='line'></div>
+        </div>
+      </div> */}
 
     </section>
   )
