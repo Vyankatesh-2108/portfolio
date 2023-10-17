@@ -164,14 +164,15 @@ img{
     width: 100%;
     height: 3px;
     top: 35px;
+    left: 0;
     border-radius: 10px;
-    background: var(--secondaryColor);
-    overflow: hidden;
+    background: var(--primaryColor);
+    overflow: hidden;    
 }
-
 .underline span{
     top:0;
     left: 10px;
+    height: 100%;
     width: 10px;
     border-radius: 10px;
     position: absolute;
@@ -182,10 +183,10 @@ img{
 /* moving line animation */
 @keyframes moveLine{
     0%{
-        left: -20px;
+        left: -5px;
     }
     100%{
-        left: 100px;
+        left: 50px;
     }
 }
 

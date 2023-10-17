@@ -26,6 +26,11 @@
     }
 }
 
+.activeHeader{
+    background-color: var(--projectCardColor);
+    box-shadow: 0 2px 4px rgba(1, 15, 29, 0.904);
+}
+
 .logo a{
     color: var(--textColor);
     font-weight: 600;
