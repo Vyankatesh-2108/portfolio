@@ -8,7 +8,7 @@
     transition: .3s ease;
 }
 
-/*Colors and Default Size*/
+/*Colors and Default Size 031a30*/
 
 :root{
     --primaryColor: #00eaff;
@@ -16,6 +16,7 @@
     --secondaryColor: rgb(150, 162, 188);
     --paragraphColor: rgb(127, 127, 175);
     --BgColor: #031a30;
+    --formColor: rgb(2, 15, 29);
     --formColor: rgb(2, 15, 29);
     --projectCardColor: #072340;
     --textColor: #dar4fb;
